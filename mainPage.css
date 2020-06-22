@@ -1,0 +1,37 @@
+html {
+    background: url(images/background1.jpeg) no-repeat center fixed;
+}
+
+.button {
+    display: inline-block;
+    background-color: magenta;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: pink;
+}
+
+.welcomeText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.signIn {
+    display: flex;
+    float: right;
+}
